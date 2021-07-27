@@ -32,9 +32,12 @@ taskButton.addEventListener("click", function(){
     
 
     removeButton.addEventListener("click", function(){
-        // taskArray.appendChild(this.parentElement)
-        taskUL.removeChild(this.parentElement)
-        
+        if(this.parentElement.parentElement == taskUL){
+            taskUL.removeChild(this.parentElement)
+        }
+        if(this.parentElement.parentElement == compleatedUL){
+            compleatedUL.removeChild(this.parentElement)
+        }
     })
 
 }) 
