@@ -1,0 +1,33 @@
+li {
+  list-style-type: none;
+}
+#mainDiv {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+#inputDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#taskListDiv {
+  display: flex;
+  justify-content: center;
+}
+#taskListDiv li {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    font-size: 24px;
+    text-align: justify;
+    align-items: center;
+}
+
+#taskListDiv button {
+    margin-left: 13px;
+}
+#taskListDiv input {
+    margin-right: 5px;
+}
