@@ -1,0 +1,55 @@
+.articleImage {
+    height: 200px;
+    width: 200px;
+}
+#articleBody {
+    display: flex;
+}
+#leftDiv {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+#articlesUL {
+    /* width: 80em; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    
+}
+#articlesUL li {
+    list-style: none;
+    padding: .5em;
+}
+
+#rightDiv {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* _____________________________________________________________________________ */
+
+#sourcesBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sourceHead {
+    padding-left: 25px;
+    font-family: fantasy;
+    font-size: xx-large;
+}
+#sourcesUL {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sourcesUL li {
+    padding: .25em;
+    
+}
+
+
+
